@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 15s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body, html {
+  /* background-color: #FBFBFD; */
+  background-color: #FBFBFD;
+  width: auto;
+  height: 100vh;
+  padding: none;
+  margin: none;
+}
+
+.contentDiv {
+  height: 80vh;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.MuiTab-textColorPrimary {
+  color: #cbcbcb;
+}
+
+.MuiTabs-root {
+  background: #666669;
+  color: #ffffff;
+}
+
+.spotifyDiv {
+  margin: 1.5rem;
+  height: 100%;
+}
+
+.social-container {
+  background: #FBFBFD;
+  margin: 25px;
+}
+
+a.socialIcon {
+  padding-left: .75em;
+  padding-right: .75em;
+  display: inline-block;
+}
+
+a.socialIcon:hover {
+  transform: translateY(-2px);
+  transform: scale(1.3);
+}
+
+div.socialIcon {
+  padding-left: .75em;
+  padding-right: .75em;
+  display: inline-block;
+}
+
+div.socialIcon:hover {
+  transform: translateY(-2px);
+  transform: scale(1.3);
+}
+
+a#instagramSocial {
+  color: black;
+}
+
+a#linkedInSocial {
+  color: #0e76a8;
+}
+
+a#xboxSocial {
+  color: #107C10;
+}
+
+a#discordSocial {
+  color: #7289d9;
+}
+
+div#snapchatSocial {
+  color: #FFFC00;
+}
+
+.vertical-timeline::before {
+  background: black;
+}
+
+.vertical-timeline-element-date {
+  color: #6e6e73;
+}
