@@ -11,7 +11,7 @@ const View = () => {
     setContentId(navContentId);
   };
   return (
-    <div className="View">
+    <div className="view">
       <NavigationBar className="navigationBar" handleNavigation={navigationContentCallback} />
       <ContentManager className="contentManager" contentId={contentId} />
       {(contentId !== 4) ? <SocialMedia className="socialMedia" /> : null}
