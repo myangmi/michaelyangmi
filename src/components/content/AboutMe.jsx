@@ -48,6 +48,7 @@ const AboutMe = () => (
         Elastic Beanstalk was used for deploying this react application.
         Finally, for Code Pipeline was used to automate my release process by using a Github
         webhook to pick up and deploy changes to my Master branch on the repo below.
+        <br/><br/>
         https://github.com/myangmi/michaelyangmi
         </p>
       </Item>
