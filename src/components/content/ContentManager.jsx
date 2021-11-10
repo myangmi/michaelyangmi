@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Container } from '@material-ui/core';
+import AboutMe from './AboutMe.jsx';
 import Timeline from './Timeline.jsx';
 
 const propTypes = {
@@ -11,7 +12,7 @@ const ContentManager = ({ contentId }) => {
   let content;
   switch (contentId) {
     case 0:
-      content = (<p>About Me</p>);
+      content = (<AboutMe />);
       break;
     case 1:
       content = (<p>Interests</p>);
