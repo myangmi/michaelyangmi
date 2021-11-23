@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Container } from '@material-ui/core';
-import AboutMe from './AboutMe.jsx';
+import AboutMe from './AboutMe/AboutMe.jsx';
 import Timeline from './Timeline.jsx';
 
 const propTypes = {
@@ -31,7 +31,7 @@ const ContentManager = ({ contentId }) => {
       break;
   }
   return (
-    <Container component="div" maxWidth={false}>
+    <Container component="div" maxWidth={false} disableGutters>
       <div className="contentDiv">
         {content}
       </div>

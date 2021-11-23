@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../App.css';
 import NavigationBar from './NavigationBar.jsx';
-import SocialMedia from './SocialMedia.jsx';
+import SocialMedia from './socials/SocialMedia.jsx';
 import ContentManager from './content/ContentManager.jsx';
 
 const View = () => {

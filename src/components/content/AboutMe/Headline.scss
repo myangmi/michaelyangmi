@@ -1,0 +1,55 @@
+@import "../../../global.scss";
+
+.headline {
+  align-items: center;
+  height: 80vh;
+  padding-bottom: 25px;
+  background-color: white;
+  background-image: url("../../../media/kansas-city-skyline-black-white.jpg");
+  background-size: cover;
+  background-position: center;
+
+
+  .right {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      @include mobile {
+        padding-left: 0;
+        align-items: center;
+      }
+
+      h1 {
+        font-size: 65px;
+        margin: 10px 0;
+
+        @include mobile {
+          font-size: 40px;
+        }
+      }
+      h3 {
+        font-size: 30px;
+
+        @include mobile {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

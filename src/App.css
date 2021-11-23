@@ -4,19 +4,6 @@
   }
 }
 
-.aboutMe-profilePicture {
-  border-radius: 50%;
-  height: 100%;
-  width: 100%;
-  vertical-align: middle;
-}
-
-.aboutMe-lanternPicture {
-  height: 100%;
-  width: auto;
-  vertical-align: middle;
-}
-
 .MuiGrid-root.aboutMe-content {
   margin-top: 20px;
 }
@@ -80,8 +67,8 @@ body, html {
 }
 
 .social-container {
-  background: #FBFBFD;
-  margin: 25px;
+  background: #f2f2f2;
+  padding-top: 25px;
   padding-bottom: 25px;
 }
 
@@ -115,11 +102,11 @@ a#linkedInSocial {
   color: #0e76a8;
 }
 
-a#xboxSocial {
-  color: #107C10;
+a#githubSocial {
+  color: black;
 }
 
-a#discordSocial {
+div#discordSocial {
   color: #7289d9;
 }
 
@@ -133,4 +120,9 @@ div#snapchatSocial {
 
 .vertical-timeline-element-date {
   color: #6e6e73;
+}
+
+#snapchatSocialImg {
+  height: 60vh;
+  width: auto;
 }
