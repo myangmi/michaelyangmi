@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Container } from '@material-ui/core';
-import AboutMe from './AboutMe/AboutMe.jsx';
+import AboutMe from './aboutme/AboutMe.jsx';
+import Interests from './interests/Interests.jsx';
 import Timeline from './Timeline.jsx';
 
 const propTypes = {
@@ -15,19 +16,19 @@ const ContentManager = ({ contentId }) => {
       content = (<AboutMe />);
       break;
     case 1:
-      content = (<p>Interests</p>);
+      content = (<Interests />);
       break;
     case 2:
-      content = (<p>Projects</p>);
+      content = (<p>Currently Under Construction...</p>);
       break;
     case 3:
-      content = (<p>Resume</p>);
+      content = (<p>Currently Under Construction...</p>);
       break;
     case 4:
       content = (<Timeline />);
       break;
     default:
-      content = (<p>This is default</p>);
+      content = (<p>Currently Under Construction...</p>);
       break;
   }
   return (
